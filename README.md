@@ -25,7 +25,7 @@ cd FrameXtract
 2. Make the script executable:
 
 ```bash
-chmod +x framextract.sh
+chmod +x framextractor.sh
 ```
 
 3. Ensure FFmpeg is installed and accessible:
@@ -51,7 +51,7 @@ Download binaries from [ffmpeg.org](https://ffmpeg.org)
 ## 🔹 Usage
 Run the script:
 ```bash
-./framextract.sh
+./framextractor.sh
 ```
 
 You will be prompted to enter:
