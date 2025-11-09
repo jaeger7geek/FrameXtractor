@@ -11,9 +11,7 @@
 - Optional **scaling** or keep the **original video resolution (1:1)**.  
 - **Custom output base name**, with default pattern if skipped.  
 - Automatic **output folder creation**, with auto-increment if folder exists.  
-- **Lightweight Bash script** — requires only FFmpeg.
-
----
+- **Lightweight Bash script**, requires only FFmpeg.
 
 ## 🔹 Installation
 
@@ -47,7 +45,7 @@ macOS (Homebrew):
 brew install ffmpeg
 ```
 Windows: 
-Download binaries from [ffmpeg.org](ffmpeg.org)
+Download binaries from [ffmpeg.org](https://ffmpeg.org)
 
 
 ## 🔹 Usage
@@ -100,7 +98,7 @@ Frames will be saved in the frames/ folder as sample_0001.png, sample_0002.png, 
 
 ## 🔹 Tips
 
-- For long videos, increase FPS carefully — extracting too many frames can consume large disk space.
+- For long videos, increase FPS carefully, extracting too many frames can consume large disk space.
 
 - Use PNG for maximum quality if storage is not an issue.
 
@@ -108,6 +106,6 @@ Frames will be saved in the frames/ folder as sample_0001.png, sample_0002.png, 
 
 - Script works on Linux, macOS, and Android (Termux).
 
-🔹 License
+## 🔹 License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the Apache-2.0 License.
