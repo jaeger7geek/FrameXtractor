@@ -18,7 +18,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/FrameXtract.git
+git clone https://github.com/Katryoshkh/FrameXtract.git
 cd FrameXtract
 ```
 
