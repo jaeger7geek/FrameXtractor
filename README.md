@@ -19,7 +19,7 @@
 
 ```bash
 git clone https://github.com/Katryoshkh/FrameXtractor.git
-cd FrameXtract
+cd FrameXtractor
 ```
 
 2. Make the script executable:
