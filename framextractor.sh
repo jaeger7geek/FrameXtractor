@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "========================================================"
-echo "         🎞️  FFmpeg Interactive Frame Extractor"
+echo "  🎞️ FrameXtractor — FFmpeg Interactive Frame Extractor "
 echo "========================================================"
 echo
 
