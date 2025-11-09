@@ -51,6 +51,9 @@ Download binaries from [ffmpeg.org](https://ffmpeg.org)
 ## 🔹 Usage
 Run the script:
 ```bash
+bash framextractor.sh
+```
+```bash
 ./framextractor.sh
 ```
 
