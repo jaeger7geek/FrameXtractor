@@ -34,7 +34,9 @@ chmod +x framextractor.sh
 ffmpeg -version
 ```
 
-* FFmpeg installation:
+---
+
+**FFmpeg installation:**
 
 Linux (Debian/Ubuntu): 
 ```bash
@@ -69,7 +71,7 @@ The script will display a summary and ask for confirmation before extraction sta
 **Example**
 ```
 Enter video file path: /home/user/Videos/sample.mp4
-Enter FPS (frames per second) [default: 1]: 30
+Enter FPS (frames per second) [default: 30]: 60
 Choose image format (png/jpg) [default: png]:
 Enter scaling (leave blank to keep original resolution):
 Enter output base name (default: frame): sample
@@ -77,7 +79,7 @@ Enter output base name (default: frame): sample
 ==========================================================
 Input video : /home/user/Videos/sample.mp4
 Output dir  : /home/user/Videos/frames
-FPS         : 30
+FPS         : 60
 Format      : png
 Scale       : original (1:1)
 Output name : sample_%04d.png
